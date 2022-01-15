@@ -9,16 +9,12 @@ body {
   height: 100vh;
   width: 100%;
 
-  background: #ed4264; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #ffedbc,
-    #ed4264
-  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: blue; /* fallback for old browsers */
+  background: blue(to right, #ffedbc, #ed4264); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to right,
     #ffedbc,
-    blue,
+    blue
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .title {
